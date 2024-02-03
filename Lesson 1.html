@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 1</title>
+  </head>
+  <body>
+    <h2>Lesson 1 Exercises - JavaScript Basics</h2>
+
+    <h4>1a. Use alert(); to display 'Good morning!' in a popup.</h4>
+    <button onclick="alert('Good morning!')">alert('Good morning!')</button>
+
+    <h4>1b. Display your name in a popup.</h4>
+    <button onclick="alert('Claudiu')">alert('Claudiu')</button>
+
+    <h4>1c. Using math, calculate 10 + 5 in the Console.</h4>
+    <p>console.log(10 + 5);</p>
+
+    <h4>1d. Calculate 20 - 5 in the Console.</h4>
+    <p>console.log(20 - 5);</p>
+
+    <h4>1e. Calculate 2 + 2 - 5 in the Console.</h4>
+    <p>console.log(2 + 2 - 5);</p>
+
+    <h4>
+      1f. Use document.body.innerHTML = ...; to display 'Good morning!' on the
+      web page.
+    </h4>
+    <p>document.body.innerHTML = 'Good morning!'</p>
+
+    <h4>1g. Display your name on the web page.</h4>
+    <p class="name"></p>
+    <p>document.querySelector('.name').innerHTML = 'Claudiu';</p>
+
+    <h4>
+      1h. You order a T-shirt for $10, socks for $8, and dinner plates for $20.
+      Use JavaScript to calculate the total cost of your order.
+    </h4>
+    <p class="total-cost"></p>
+
+    <h4>
+      1i. Your bank account has $100, you spend $20 on lunch, $50 on dinner, and
+      earn $200 from your job. Calculate how much money you have.
+    </h4>
+    <p class="money"></p>
+
+    <h4>1j. Use document.body.innerHTML = ...; to make the web page blank.</h4>
+    <p>document.body.innerHTML = "";</p>
+
+    <script>
+      console.log(10 + 5);
+      console.log(20 - 5);
+      console.log(2 + 2 - 5);
+      document.querySelector(".name").innerHTML = "Claudiu";
+      document.querySelector(".total-cost").innerHTML =
+        "total cost = " + (10 + 8 + 20);
+      document.querySelector(".money").innerHTML =
+        "total cost = " + (100 - 20 - 50 + 200);
+    </script>
+  </body>
+</html>
